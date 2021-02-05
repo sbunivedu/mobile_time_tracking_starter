@@ -2,6 +2,8 @@
 
 The app is made up of several components as illustrated in this diagram: ![diagram](diagram.png)
 
+![diagram](prop_state.png)
+
 Give the data consumed by each component we need to decide what data should be stateful. Here is a list of criteria given in the [Thinking in React article](https://reactjs.org/docs/thinking-in-react.html):
 1. Is it passed in from a parent via props? If so, it probably isn’t state.
 
